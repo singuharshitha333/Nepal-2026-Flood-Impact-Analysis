@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nepal 2026 Flood Impact Analysis</title>
+  <meta name="description" content="A visual data analytics case study of the 25–26 August 2026 flood and mass-movement impact in Syapru Besi, Rasuwa, Nepal." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header class="nav">
+  <div class="brand">NEPAL <span>2026</span></div>
+<nav>
+  <a href="#story">Story</a>
+  <a href="#impact">Impact</a>
+  <a href="#analysis">Analysis</a>
+  <a href="#method">Method</a>
+  <a href="#sources">Sources</a>
+</nav>
+</header>
+
+<section class="hero">
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <p class="eyebrow">DATA ANALYTICS × DISASTER STORYTELLING</p>
+    <h1>Nepal 2026<br><em>Flood Impact Analysis</em></h1>
+    <p class="lead">Turning satellite-based disaster assessment data into a clear picture of impact across buildings, transport, land use and infrastructure.</p>
+    <div class="meta">25–26 August 2026 &nbsp;•&nbsp; Syapru Besi, Rasuwa, Nepal</div>
+    <a class="button" href="#impact">Explore the evidence ↓</a>
+    <p class="image-credit">Satellite imagery: ESA / Copernicus Sentinel-2</p>
+  </div>
+</section>
+
+<main>
+<section id="story" class="story section">
+  <div class="section-label">01 / THE EVENT</div>
+  <div class="story-grid">
+    <div>
+      <h2>A disaster measured in more than numbers.</h2>
+      <p>The 25–26 August 2026 flash-flood and mass-movement event caused severe damage in Rasuwa District. This project focuses specifically on <strong>AOI01 Syapru Besi</strong> and translates the mapped damage assessment into an accessible analytics story.</p>
+      <p>The underlying EMSR927 grading products were produced from post-event satellite imagery and photo-interpretation. The assessment is rapid and imagery-based, so it should not be treated as a complete ground-survey inventory.</p>
+      <div class="source-note">Source: Copernicus Emergency Management Service (EMSR927), accessed through UNESCO IHP-WINS.</div>
+    </div>
+   <div class="photo-card">
+  <img src="images/nepal-flood-satellite.jpg" alt="Satellite imagery of the Nepal flood">
+  <small>Satellite imagery: ESA / Copernicus Sentinel-2</small>
+</div>
+  </div>
+</section>
+
+
+<section id="impact" class="impact section dark">
+  <div class="section-label">02 / AT A GLANCE</div>
+  <h2>The measurable impact</h2>
+  <div class="kpis">
+    <div class="kpi"><strong>559</strong><span>Buildings in AOI</span></div>
+    <div class="kpi"><strong>433</strong><span>Buildings affected</span></div>
+    <div class="kpi"><strong>77.46%</strong><span>Affected building rate</span></div>
+    <div class="kpi"><strong>111 ha</strong><span>Affected land</span></div>
+    <div class="kpi"><strong>5</strong><span>Bridges affected</span></div>
+    <div class="kpi"><strong>8.6 km</strong><span>Roads affected</span></div>
+  </div>
+</section>
+
+<section id="analysis" class="section">
+  <div class="section-label">03 / ANALYSIS</div>
+  <h2>What the data tells us</h2>
+  <p class="analysis-intro">
+  The assessment shows substantial impact across buildings, transportation,
+  land use and critical infrastructure within the 346-hectare assessment area.
+</p>
+  <div class="analysis-block">
+    <div class="analysis-copy"><h3>🏠 Building impact</h3><p>Across the AOI, 433 of 559 mapped buildings were classified as affected. Residential buildings account for 392 affected buildings, while 41 of 42 mapped non-residential buildings were affected.</p><div class="mini-grid"><span><b>323</b> Destroyed</span><span><b>32</b> Damaged</span><span><b>78</b> Possibly damaged</span><span><b>126</b> No visible damage</span></div></div>
+    <div class="chart-card"><img src="images/building_damage_status.png" alt="Building damage status chart" /></div>
+  </div>
+
+  <div class="analysis-block reverse">
+    <div class="analysis-copy"><h3>🏢 Residential vs non-residential</h3><p>The affected share differs substantially between asset groups: 392/517 residential buildings and 41/42 non-residential buildings were classified as affected.</p><div class="mini-grid"><span><b>517</b> Residential AOI</span><span><b>392</b> Residential affected</span><span><b>42</b> Non-residential AOI</span><span><b>41</b> Non-residential affected</span></div></div>
+    <div class="chart-card"><img src="images/affected_buildings_by_asset_type.png" alt="Affected buildings by asset type chart" /></div>
+  </div>
+
+  <div class="analysis-block">
+    <div class="analysis-copy"><h3>🛣️ Transportation impact</h3><p>The assessment recorded 5.4 km of primary roads, 1.1 km of local roads, 1.1 km of cart tracks and 5 bridges/elevated highways affected. The helipad assessment covered 0.01 ha.</p></div>
+    <div class="chart-card"><img src="images/transportation_impact.png" alt="Transportation impact chart" /></div>
+  </div>
+
+  <div class="analysis-block reverse">
+    <div class="analysis-copy"><h3>🌳 Land-use impact</h3><p>A total of 111 hectares of represented land-use area was affected across forests, shrub/herbaceous areas, inland wetlands, other land and heterogeneous agricultural land.</p><div class="mini-grid"><span><b>61.6 ha</b> Forests</span><span><b>31.8 ha</b> Shrub/herbaceous</span><span><b>12.1 ha</b> Inland wetlands</span><span><b>2.1 ha</b> Agricultural</span></div></div>
+    <div class="chart-card"><img src="images/landuse_impact.png" alt="Land use impact chart" /></div>
+  </div>
+
+  <div class="chart-row">
+    <div class="chart-card"><h4>Affected percentage by transport type</h4><img src="images/transportation_affected_percentage.png" alt="Transportation affected percentage" /></div>
+    <div class="chart-card"><h4>Affected land area</h4><img src="images/landuse_affected_area.png" alt="Affected land-use area" /></div>
+  </div>
+
+  <div class="facility"><span>⚡ FACILITIES</span><strong>0.8 ha</strong><p>Power plant constructions affected in the assessment.</p></div>
+</section>
+
+<section class="section photo-band">
+ <div class="photo-band-image">
+  <img src="images/nepal-flood-satellite.jpg" alt="Satellite imagery of the Nepal flood">
+</div>
+  <div class="photo-band-copy"><div class="section-label">04 / HUMAN CONTEXT</div><h2>Behind every number is a place and a community.</h2><p>This project is designed to keep the human context visible while staying faithful to the evidence. The photographs provide context; the analysis provides measurable impact.</p><p class="credit">Photo source: Nomad Lawyer / image credited on source page. Confirm permission and attribution requirements before publishing.</p></div>
+</section>
+
+<section id="method" class="section method">
+  <div class="section-label">05 / HOW IT WAS BUILT</div>
+  <h2>From raw assessment to data story</h2>
+  <div class="workflow"><div>RAW DATA</div><i>→</i><div>EXCEL<br><small>Cleaning & validation</small></div><i>→</i><div>SQL SERVER<br><small>Analysis</small></div><i>→</i><div>PYTHON<br><small>EDA & charts</small></div><i>→</i><div>DASHBOARD<br><small>Visual summary</small></div></div>
+  <div class="tools"><span>Microsoft Excel</span><span>SQL Server / SSMS</span><span>Python</span><span>Pandas</span><span>Matplotlib</span></div>
+</section>
+
+<section id="sources" class="section sources">  <div class="section-label">06 / SOURCES & LIMITATIONS</div>
+  <h2>Evidence first.</h2>
+  <p>The project uses Copernicus EMS Rapid Mapping activation EMSR927, with the dataset published through UNESCO IHP-WINS. The source assessment is a rapid, imagery-based interpretation and was not field validated.</p>
+  <div class="links"><a href="https://ihp-wins.unesco.org/en/dataset/damage-grading-syapru-besi-and-timure-rasuwa-district-nepal-27-august-2026" target="_blank">Dataset / IHP-WINS ↗</a><a href="https://mapping.emergency.copernicus.eu/news/flood-in-nepal-emsr927/" target="_blank">Copernicus EMS report ↗</a><a href="https://github.com/singuharshitha333/Nepal-2026-Flood-Impact-Analysis" target="_blank">GitHub project ↗</a></div>
+</section>
+</main>
+<footer><div>NEPAL 2026 FLOOD IMPACT ANALYSIS</div><p>Data analytics project • Excel • SQL • Python</p></footer>
+<script src="script.js"></script>
+</body>
+</html>

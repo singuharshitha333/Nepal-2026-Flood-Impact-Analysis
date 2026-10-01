@@ -1,0 +1,94 @@
+:root{--ink:#101820;--muted:#68747c;--paper:#f4f1eb;--card:#fff;--accent:#0e6872;--accent2:#d59a4b;--dark:#0b2227;--line:#d9d4cc}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:Inter,Segoe UI,Arial,sans-serif;line-height:1.65}.nav{position:fixed;z-index:20;top:0;width:100%;display:flex;justify-content:space-between;align-items:center;padding:18px 5%;background:rgba(10,25,29,.78);backdrop-filter:blur(12px);color:#fff}.brand{font-weight:800;letter-spacing:.12em}.brand span{font-weight:400}.nav a{color:#fff;text-decoration:none;margin-left:24px;font-size:13px}.hero{min-height:92vh;display:grid;place-items:center;position:relative;background-image:url('images/nepal-flood-satellite.jpg');background-size:cover;background-position:center}.hero-overlay{position:absolute;inset:0;background:linear-gradient(90deg,rgba(5,18,21,.9),rgba(5,18,21,.45),rgba(5,18,21,.18))}.hero-content{position:relative;color:#fff;width:min(1100px,90%);padding-top:70px}.eyebrow,.section-label{font-size:11px;letter-spacing:.2em;font-weight:800}.eyebrow{color:#d9b477}.hero h1{font-size:clamp(48px,8vw,92px);line-height:.96;margin:18px 0}.hero h1 em{font-family:Georgia,serif;font-weight:400}.lead{max-width:650px;font-size:20px;color:#eef4f4}.meta{margin:24px 0;color:#d5e0e0}.button{display:inline-block;padding:12px 20px;background:#fff;color:var(--ink);text-decoration:none;font-weight:700}.section{width:min(1120px,90%);margin:auto;padding:90px 0}.section-label{color:var(--accent);margin-bottom:14px}.story-grid,.analysis-block,.photo-band{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center}.section h2{font-family:Georgia,serif;font-size:clamp(34px,5vw,58px);line-height:1.05;margin:8px 0 24px}.story p{font-size:17px;color:#445057}.source-note{padding:15px 18px;border-left:3px solid var(--accent);background:#ebe8e1;color:#59656b;font-size:13px}.photo-card,.chart-card{background:var(--card);box-shadow:0 15px 45px rgba(16,24,32,.08);padding:12px}.photo-card img,.chart-card img{width:100%;display:block}.photo-card small{display:block;padding:10px 4px 2px;color:#777;font-size:11px}.dark{width:100%;background:var(--dark);color:#fff;padding-left:5%;padding-right:5%}.dark .section-label{color:#d7ae73}.dark h2{max-width:700px}.kpis{display:grid;grid-template-columns:repeat(6,1fr);gap:12px;max-width:1200px;margin:auto}.kpi{border:1px solid rgba(255,255,255,.16);padding:26px 15px;min-height:140px;display:flex;flex-direction:column;justify-content:end}.kpi strong{font-size:34px;color:#fff}.kpi span{font-size:12px;color:#b9c9ca}.analysis-block{margin:70px 0}.analysis-block.reverse{direction:rtl}.analysis-block.reverse>*{direction:ltr}.analysis-copy h3{font-size:29px;margin:0 0 10px}.analysis-copy p{color:#536067}.mini-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:20px}.mini-grid span{padding:13px;background:#eae7e0;font-size:12px;color:#58636a}.mini-grid b{display:block;font-size:19px;color:var(--ink)}.chart-row{display:grid;grid-template-columns:1fr 1fr;gap:24px}.chart-card h4{margin:8px 5px 14px}.facility{margin:45px 0 0;padding:25px;border:1px solid var(--line);display:grid;grid-template-columns:1fr auto;gap:3px 20px}.facility span{font-size:11px;letter-spacing:.15em;font-weight:800;color:var(--accent)}.facility strong{font-size:36px}.facility p{grid-column:1/-1;margin:0;color:var(--muted)}.photo-band{width:100%;max-width:none;background:#dfe4df;padding:0}.photo-band-image{height:480px}.photo-band-image img{width:100%;height:100%;object-fit:cover}.photo-band-copy{padding:70px 7%}.photo-band-copy .section-label{color:var(--accent)}.credit{font-size:11px;color:#68747c}.workflow{display:flex;align-items:center;justify-content:center;gap:12px;flex-wrap:wrap;margin:50px 0}.workflow div{background:#fff;border:1px solid var(--line);padding:20px 18px;text-align:center;font-weight:800;min-width:130px}.workflow small{font-weight:400;color:var(--muted)}.workflow i{font-style:normal;font-size:24px;color:var(--accent)}.tools{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}.tools span,.links a{border:1px solid var(--line);padding:10px 15px;background:#fff;font-size:13px;text-decoration:none;color:var(--ink)}.links{display:flex;gap:12px;flex-wrap:wrap;margin-top:25px}.links a:hover{background:var(--ink);color:#fff}footer{background:#09191d;color:#c7d0d0;text-align:center;padding:35px;font-size:12px}footer div{letter-spacing:.16em;font-weight:800;color:#fff}footer p{margin:8px 0 0}@media(max-width:850px){.nav nav{display:none}.story-grid,.analysis-block,.photo-band{grid-template-columns:1fr}.kpis{grid-template-columns:repeat(2,1fr)}.chart-row{grid-template-columns:1fr}.photo-band-image{height:330px}.section{padding:65px 0}.hero{min-height:85vh}}@media(max-width:480px){.kpis{grid-template-columns:1fr}.hero h1{font-size:50px}.mini-grid{grid-template-columns:1fr}}
+.reveal{opacity:0;transform:translateY(18px);transition:opacity .7s ease,transform .7s ease}.reveal.show{opacity:1;transform:none}
+.image-credit{
+  font-size:.75rem;
+  opacity:.75;
+  margin-top:14px;
+}
+.story-section{
+  padding:90px 8%;
+  background:#f4f1ea;
+  color:#172326;
+}
+
+.story-section h2{
+  max-width:850px;
+  font-size:clamp(2rem,4vw,3.5rem);
+  margin:10px 0 45px;
+  line-height:1.05;
+}
+
+.story-grid{
+  display:grid;
+  grid-template-columns:1.4fr 1fr;
+  gap:60px;
+  max-width:1100px;
+}
+
+.story-grid p{
+  font-size:1.05rem;
+  line-height:1.8;
+  max-width:700px;
+}
+
+.story-facts{
+  display:grid;
+  gap:14px;
+}
+
+.story-facts div{
+  padding:20px;
+  border-left:3px solid #172326;
+  background:rgba(255,255,255,.55);
+}
+
+.story-facts strong{
+  display:block;
+  font-size:1.35rem;
+}
+
+.story-facts span{
+  opacity:.65;
+}
+
+@media(max-width:700px){
+  .story-grid{
+    grid-template-columns:1fr;
+    gap:30px;
+  }
+}
+
+.analysis-intro{
+  max-width:800px;
+  font-size:1.1rem;
+  line-height:1.7;
+  opacity:.72;
+  margin:0 0 50px;
+}
+
+.kpi{
+  transition:transform .25s ease,border-color .25s ease;
+}
+
+.kpi:hover{
+  transform:translateY(-5px);
+  border-color:rgba(255,255,255,.4);
+}
+
+.chart-card{
+  transition:transform .25s ease,box-shadow .25s ease;
+}
+
+.chart-card:hover{
+  transform:translateY(-4px);
+  box-shadow:0 20px 55px rgba(16,24,32,.14);
+}
+
+.button{
+  transition:transform .2s ease,background .2s ease;
+}
+
+.button:hover{
+  transform:translateY(-2px);
+  background:#d9b477;
+}
